@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #1A3546; */
+}
+/* p{
+    font-family: 'Roboto', sans-serif;
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+.main-cont
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}.navbar .nav-item{
+    padding: 15px;
+    font-size: 17px;
+}
+
+.navbar .dropdown-menu{
+    background-color: #1A3546;
+}
+.navbar .dropdown-menu .dropdown-item{
+    color: white;
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.active{
+    font-weight: bolder;
+}
+nav{
+    background-color: #0B1736;
+}
+
+.header{
+    overflow-x: hidden;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B1736;;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.header p{
+    color: white;
+}
+
+/* h2{
+    font-family: 'Chivo Mono', monospace;
+} */
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* .header .intro-text{
+    margin-top: 10vh;
+    padding-bottom: 10px;
+    max-width: 35vw;
+    color: white;
+} */
+
+.main-cont{
+    color: white;
+    background-color: #0B1736;
+}
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+.main-cont .departments{
+    /* background-color: #FAF8F1; */
+    /* background-color: #F5EBE0; */
+    background-color: #1C315E;
+}
+
+.offer{
+    background-color: #2A3990;
+    /* border-radius: 20px; */
+}
+
+.OfferHeading {
+    font-size: 50px;
+    text-align: start;
+}
+
+.whatWeOfferContent{
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    /* background-color: black; */
+}
+
+span{
+    color: #4B56D2;
+    font-size: 40px;
+    
+}
+.depContent p{
+    font-weight: 100;
+    font-style: italic;
+}
+
+.dom-content {
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1.title {
+    position: relative;
+    color: #353535;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+.card-text{
+    color: black;
+}
+
+.btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.blogCards img{
+    max-height: 50vh;
+}
